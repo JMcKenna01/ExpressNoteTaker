@@ -25,7 +25,7 @@ The Express Note Taker is a full-stack application that simplifies the task of n
 
 # Link to the Deployed Application
 
-[https://jm](https://express-note-taker-2024-73cd8f858985.herokuapp.com/)
+(https://express-note-taker-2024-73cd8f858985.herokuapp.com/)
 
 # Credits
 
