@@ -6,12 +6,12 @@ The Express Note Taker is a full-stack application that simplifies the task of n
 
 # Key Features:
 
-Current Notes Display: Lists all saved notes for easy access and management.
-Add New Notes: Users can add new notes by entering a title and note body.
-Save Functionality: Newly created notes can be saved with a click of a button.
-Delete Option: Allows users to remove notes they no longer need.
-Data Persistence: Notes are saved to and retrieved from a JSON file, ensuring data is persistent across sessions.
-Dynamic Updating: The front-end seamlessly updates to reflect changes in the backend data store.
+- Current Notes Display: Lists all saved notes for easy access and management.
+- Add New Notes: Users can add new notes by entering a title and note body.
+- Save Functionality: Newly created notes can be saved with a click of a button.
+- Delete Option: Allows users to remove notes they no longer need.
+- Data Persistence: Notes are saved to and retrieved from a JSON file, ensuring data is persistent across sessions.
+- Dynamic Updating: The front-end seamlessly updates to reflect changes in the backend data store.
 
 # Code Breakdown
 
