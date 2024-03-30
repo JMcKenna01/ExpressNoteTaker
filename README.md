@@ -21,11 +21,16 @@ JavaScript - Front-end logic for dynamic content updates and user interaction ha
 Express.js - Backend server framework for route management and server-side logic.
 Node.js - JavaScript runtime environment that executes server-side code.
 JSON - Data format used for storing and transporting notes data.
+Screenshot
+CLICK-HERE
 
-# Link to the Deployed Application
-
+Link to the Deployed Application
 https://jmckenna01.github.io/Express-Note-Taker/
 
-# License
-This project is licensed under the MIT License.
+# Credits
 
+N/A
+
+# License
+
+This project is licensed under the MIT License.
