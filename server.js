@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Middleware for serving static files from the public directory
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'Develop', 'public')));
+
 
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
@@ -17,8 +18,14 @@ app.use(express.urlencoded({ extended: true }));
 
 // Serve notes.html at the /notes route
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/notes.html'));
+    res.sendFile(path.join(__dirname, 'Develop', 'public', 'notes.html'));
 });
+
+// Serve index.html for all other routes as a fallback
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'Develop', 'public', 'index.html'));
+});
+
 
 // API route: GET /api/notes - Return all saved notes as JSON
 app.get('/api/notes', (req, res) => {
