@@ -15,17 +15,17 @@ Dynamic Updating: The front-end seamlessly updates to reflect changes in the bac
 
 # Code Breakdown
 
-HTML - Structure for the application's front-end.
-CSS - Styling to enhance UI/UX.
-JavaScript - Front-end logic for dynamic content updates and user interaction handling.
-Express.js - Backend server framework for route management and server-side logic.
-Node.js - JavaScript runtime environment that executes server-side code.
-JSON - Data format used for storing and transporting notes data.
-Screenshot
-CLICK-HERE
+HTML- Structure for the application's front-end.
+CSS- Styling to enhance UI/UX.
+JavaScript- Front-end logic for dynamic content updates and user interaction handling.
+Express.js- Backend server framework for route management and server-side logic.
+Node.js- JavaScript runtime environment that executes server-side code.
+JSON- Data format used for storing and transporting notes data.
 
-Link to the Deployed Application
-https://jmckenna01.github.io/Express-Note-Taker/
+
+# Link to the Deployed Application
+
+https://jm
 
 # Credits
 
